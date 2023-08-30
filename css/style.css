@@ -1,0 +1,68 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Phudu:wght@400;500&display=swap");
+html {
+  font-family: "Phudu", cursive;
+  height: 100vh;
+  color: white;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#clock {
+  font-size: 100px;
+  padding-bottom: 30px;
+}
+form {
+  margin-bottom: 20px;
+}
+form input {
+  border: none;
+  width: 250px;
+  height: 30px;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  font-size: 14px;
+}
+#login-form input {
+  font-size: 23px;
+}
+form input::placeholder {
+  color: white;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+#greeting {
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+img {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+#todo-list button {
+  border-style: none;
+  background-color: transparent;
+  margin-right: 5px;
+}
+#todo-list button:hover {
+  cursor: pointer;
+}
+
+#quote {
+  margin-bottom: 50px;
+}
